@@ -19,7 +19,7 @@ class HomeActivity extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      backgroundColor: Colors.green,
       appBar: AppBar(
         backgroundColor: Colors.cyan,
         title: Text('Home'),
@@ -28,6 +28,7 @@ class HomeActivity extends StatelessWidget{
         // mainAxisAlignment: MainAxisAlignment.center,
         // crossAxisAlignment: CrossAxisAlignment.center,
         // mainAxisSize: MainAxisSize.max,
+
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -51,6 +52,7 @@ class Activity1 extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green,
       appBar: AppBar(
         backgroundColor: Colors.cyan,
         title: Text('Activity1'),
@@ -69,6 +71,7 @@ class Activity2 extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green,
       appBar: AppBar(
         backgroundColor: Colors.cyan,
         title: Text('Activity2'),
